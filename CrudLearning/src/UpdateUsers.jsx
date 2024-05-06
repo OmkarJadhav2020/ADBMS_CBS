@@ -27,8 +27,9 @@ export default function UpdateUsers() {
       .catch((err) => console.log(err));
   };
   return (
-    <div>
+    <div className='addUser'>
       <form onSubmit={Update}>
+        <h3>Update User</h3>
         <input
           type="text"
           name=""

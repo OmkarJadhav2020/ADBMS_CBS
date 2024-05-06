@@ -1,4 +1,10 @@
 
+.table
+{
+  width: 200px;
+}
+
+
 .table tr td
 {
   margin: 10px;
@@ -6,4 +12,35 @@
 .table tr td button
 {
   border: 0;
+}
+.container
+{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addUser
+{
+  border: 1px solid rgba(0,0,0,0.8);
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 350px;
+  position: absolute;
+  border-radius: 10px;
+  top: 50%;
+  background: #fffffd;
+  left: 50%;
+  box-shadow: 1px 0px 5px rgba(0,0,0,0.3);
+  transform: translate(-50%,-50%);
+}
+.addUser input
+{
+  margin: 5px 0px;
+  border: 1px solid rgba(0,0,0,0.5);
 }

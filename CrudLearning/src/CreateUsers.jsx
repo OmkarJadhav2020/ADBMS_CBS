@@ -14,8 +14,9 @@ export default function CreateUsers() {
         .catch(err=>console.log(err))
     }
   return (
-    <div>
-      <form onSubmit={Submit}>
+    <div className='addUser'>
+      <form className='form' onSubmit={Submit}>
+        <h3>Add Users</h3>
         <input type="text" name="" id="" placeholder='Enter name' onChange={(e)=>setName(e.target.value)}/>
         <br/>
         <br/>
