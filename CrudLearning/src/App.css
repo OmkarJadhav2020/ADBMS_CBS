@@ -1,0 +1,9 @@
+
+.table tr td
+{
+  margin: 10px;
+}
+.table tr td button
+{
+  border: 0;
+}
